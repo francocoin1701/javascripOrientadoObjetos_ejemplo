@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            product app
+        </a>
+    </nav>
+    <div class="container">
+        <div id="app" class="row pt-5" >
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        form product
+                    </div>
+                    <form id="product-form" class="card-body">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="product name" >
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="price" placeholder="price product">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="year" placeholder="year product">
+                        </div>
+                        <input type="submit" value="save" class="btn btn-primary btn-block">                        
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-8" id="product-list">
+               
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
